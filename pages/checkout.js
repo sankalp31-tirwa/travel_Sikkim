@@ -71,7 +71,7 @@ const Maintourdetail = () => {
         </section>
       </div>
 
-      <div className="flex flex-wrap -m-4">
+      {/* <div className="flex flex-wrap -m-4">
         <div className="p-4 xl:w-1/4 md:w-1/2 w-full">
           <div className="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
             <button className="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">
@@ -79,7 +79,7 @@ const Maintourdetail = () => {
             </button>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

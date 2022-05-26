@@ -611,7 +611,7 @@ function Bike() {
                             <p className="text-gray-500">
                               {/* <h3>Your  Unique Account ID: {product.uid}</h3> */}
                               <h3>Product ListId: {product.id}</h3>
-                              <p>Loaction: {product.Location}</p>
+                              <p>Location: {product.PickLocation}</p>
                               {/* From {data.destination} To {data.destination2} */}
                             </p>
 

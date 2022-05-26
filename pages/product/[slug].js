@@ -121,7 +121,7 @@ const Post = () => {
       .then(() => {
         // toast("Submitted Successfully");
         // window.location.reload();
-        router.push("/orderhistory");
+        // router.push("/orderhistory");
       })
       .catch((err) => {
         console.error(err);
