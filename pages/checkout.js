@@ -6,7 +6,7 @@ import "react-toastify/dist/ReactToastify.css";
 import Image from "next/image";
 
 const click = () => {
-  toast.warn("Hello You Found a button", {
+  toast.success("Thankyou for Visiting our Page", {
     position: "bottom-center",
     autoClose: 5000,
     hideProgressBar: false,
@@ -33,11 +33,9 @@ const Maintourdetail = () => {
       />
       <div className="w-full">
         <div className="mt-7 flex flex-col px-8 shadow-lg ">
-          <h1 className="text-2xl font-bold text-blue-900">
-            WE Are The Coders
-          </h1>
+          <h1 className="text-2xl font-bold text-blue-900">Hi!</h1>
           <p onClick={click} className="py-3 text-lg cursor-pointer w-2 ">
-            BYE
+            Bye
           </p>
         </div>
 
@@ -51,9 +49,9 @@ const Maintourdetail = () => {
         >
           <div className="container px-5 py-24 mx-auto flex flex-wrap items-center">
             <div className="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0"></div>
-            <div className="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
+            <div className="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 items-center">
               <h2 className="text-gray-900 text-lg font-medium title-font mb-5 text-center">
-                Hello
+                WE Are The Coders
               </h2>
               <div className="">
                 <img
